@@ -17,6 +17,7 @@ static const char *colors[SchemeLast][2] = {
 };
 
 // Misc
+static int fuzzy = 1;
 static unsigned int lines = 0;
 static const char *prompt = NULL;
 static const char worddelimiters[] = " ";
